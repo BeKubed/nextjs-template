@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import ZitadelProvider from 'next-auth/providers/zitadel';
 import prisma from "@/lib/db";
-import { AuthOrg, TokenUser } from "./app/_types/user";
+import { AuthOrg, TokenUser } from "./types/auth";
 import { DefaultSession } from "next-auth"
 
 declare module "next-auth" {
